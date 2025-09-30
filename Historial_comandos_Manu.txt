@@ -1,0 +1,17 @@
+ls
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+grep "model name" /proc/cpuinfo | tail -n1 >> datos_usuario.txt 
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+gip status
+git status
+git push
+cat <<EOF>> README.md
+Alumno: Manuel
+Division: 315 Turno: Noche
+EOF
+
+git add README.md datos_usuario.txt 
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
