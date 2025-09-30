@@ -1,1 +1,3 @@
 Usuario=ubuntu
+model name	: AMD Ryzen 5 3500 6-Core Processor
+model name	: AMD Ryzen 5 3500 6-Core Processor
